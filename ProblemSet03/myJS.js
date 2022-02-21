@@ -9,10 +9,9 @@
 * Then write a function that changes the text and the color inside the div
 *
 */
-
-var block = document.getElementById("color-block");
-var text = document.getElementById("color-name");
-var isClicked=false;
+const block = document.getElementById("color-block");
+const text = document.getElementById("color-name");
+let isClicked = false;
 
 function changeColor(){
     
